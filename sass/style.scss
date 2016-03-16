@@ -1,0 +1,83 @@
+@import "compass/reset";
+@import "compass/css3";
+@import "fonticon";
+
+$post-bg-color:#FFFBF5;
+$body-color:#F2EEE8;
+$gray-text-color:gray;
+$text-color:black;
+
+body {
+	font-size: 62.5%;
+	background-color: $body-color;
+}
+
+.post {
+	position: relative;
+	text-align: left;
+	padding:2em;
+	background: $post-bg-color;
+	border-bottom:1px solid $body-color;
+
+	.avatar{
+		width: 3em;
+		height: 3em;
+		@include border-radius(100%);
+		position: absolute;
+		top:2em;
+		left:2em;
+	}
+
+	.content{
+		margin-left: 4em;
+
+		span{
+			margin-right: 1em;
+
+			&.name{
+				font-weight:bold;
+			}
+			&.account{
+				font-weight:lighter;
+				color:$gray-text-color;
+			}
+			&.time{
+				color:$gray-text-color;
+				float: right;
+				margin-right: 0;
+			}
+		}
+
+	}
+
+	header{
+		margin-bottom: 1em;
+	}
+	section{
+		margin-bottom: 1em;
+		p{
+			line-height:1.4;
+			font-weight:normal;
+		}
+		img{
+			width: 100%;
+			margin-bottom: 1em;
+		}
+	}
+
+	footer{
+		a{
+			text-decoration: none;
+			color:$gray-text-color;
+			margin-right: 1em;
+			&:last-child{
+				float: right;
+				margin-right: 0;
+			}
+
+			&:hover{
+				color:$text-color;
+			}
+		}
+	}
+}

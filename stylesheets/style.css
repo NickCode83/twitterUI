@@ -1,0 +1,355 @@
+@charset "UTF-8";
+/* line 5, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+@font-face {
+  font-family: "iconfont";
+  src: url("../fonts/iconfont.eot");
+  src: url("../fonts/iconfont.eot?#iefix") format("eot"), url("../fonts/iconfont.woff") format("woff"), url("../fonts/iconfont.ttf") format("truetype"), url("../fonts/iconfont.svg#iconfont") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 9, ../sass/fonticon.scss */
+[class^="icon-"], [class*=" icon-"], .content-icon {
+  font-family: "iconfont";
+  speak: none;
+  display: inline-block;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  vertical-align: middle;
+  line-height: 1;
+}
+
+/* line 24, ../sass/fonticon.scss */
+.icon-angle-down:before {
+  content: "";
+}
+
+/* line 28, ../sass/fonticon.scss */
+.icon-angle-left:before {
+  content: "";
+}
+
+/* line 32, ../sass/fonticon.scss */
+.icon-angle-right:before {
+  content: "";
+}
+
+/* line 36, ../sass/fonticon.scss */
+.icon-angle-up:before {
+  content: "";
+}
+
+/* line 40, ../sass/fonticon.scss */
+.icon-caret-down:before {
+  content: "";
+}
+
+/* line 44, ../sass/fonticon.scss */
+.icon-caret-left:before {
+  content: "";
+}
+
+/* line 48, ../sass/fonticon.scss */
+.icon-caret-right:before {
+  content: "";
+}
+
+/* line 52, ../sass/fonticon.scss */
+.icon-caret-up:before {
+  content: "";
+}
+
+/* line 56, ../sass/fonticon.scss */
+.icon-check-square-o:before {
+  content: "";
+}
+
+/* line 60, ../sass/fonticon.scss */
+.icon-check-square:before {
+  content: "";
+}
+
+/* line 64, ../sass/fonticon.scss */
+.icon-check:before {
+  content: "";
+}
+
+/* line 68, ../sass/fonticon.scss */
+.icon-circle-o:before {
+  content: "";
+}
+
+/* line 72, ../sass/fonticon.scss */
+.icon-clipboard:before {
+  content: "";
+}
+
+/* line 76, ../sass/fonticon.scss */
+.icon-close:before {
+  content: "";
+}
+
+/* line 80, ../sass/fonticon.scss */
+.icon-cross:before {
+  content: "";
+}
+
+/* line 84, ../sass/fonticon.scss */
+.icon-dot-circle-o:before {
+  content: "";
+}
+
+/* line 88, ../sass/fonticon.scss */
+.icon-female:before {
+  content: "";
+}
+
+/* line 92, ../sass/fonticon.scss */
+.icon-graduation-cap:before {
+  content: "";
+}
+
+/* line 96, ../sass/fonticon.scss */
+.icon-icon-content-paste:before {
+  content: "";
+}
+
+/* line 100, ../sass/fonticon.scss */
+.icon-info-with-circle:before {
+  content: "";
+}
+
+/* line 104, ../sass/fonticon.scss */
+.icon-male:before {
+  content: "";
+}
+
+/* line 108, ../sass/fonticon.scss */
+.icon-map-marker:before {
+  content: "";
+}
+
+/* line 112, ../sass/fonticon.scss */
+.icon-minus:before {
+  content: "";
+}
+
+/* line 116, ../sass/fonticon.scss */
+.icon-paper-plane-o:before {
+  content: "";
+}
+
+/* line 120, ../sass/fonticon.scss */
+.icon-paper-plane:before {
+  content: "";
+}
+
+/* line 124, ../sass/fonticon.scss */
+.icon-pencil-square:before {
+  content: "";
+}
+
+/* line 128, ../sass/fonticon.scss */
+.icon-pencil:before {
+  content: "";
+}
+
+/* line 132, ../sass/fonticon.scss */
+.icon-pie-chart:before {
+  content: "";
+}
+
+/* line 136, ../sass/fonticon.scss */
+.icon-plus:before {
+  content: "";
+}
+
+/* line 140, ../sass/fonticon.scss */
+.icon-search:before {
+  content: "";
+}
+
+/* line 144, ../sass/fonticon.scss */
+.icon-shield:before {
+  content: "";
+}
+
+/* line 148, ../sass/fonticon.scss */
+.icon-shield2:before {
+  content: "";
+}
+
+/* line 152, ../sass/fonticon.scss */
+.icon-square-o:before {
+  content: "";
+}
+
+/* line 156, ../sass/fonticon.scss */
+.icon-star-o:before {
+  content: "";
+}
+
+/* line 160, ../sass/fonticon.scss */
+.icon-star:before {
+  content: "";
+}
+
+/* line 164, ../sass/fonticon.scss */
+.icon-users:before {
+  content: "";
+}
+
+/* line 168, ../sass/fonticon.scss */
+.icon-warning:before {
+  content: "";
+}
+
+/* line 10, ../sass/style.scss */
+body {
+  font-size: 62.5%;
+  background-color: #F2EEE8;
+}
+
+/* line 15, ../sass/style.scss */
+.post {
+  position: relative;
+  text-align: left;
+  padding: 2em;
+  background: #FFFBF5;
+  border-bottom: 1px solid #F2EEE8;
+}
+/* line 22, ../sass/style.scss */
+.post .avatar {
+  width: 3em;
+  height: 3em;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+  position: absolute;
+  top: 2em;
+  left: 2em;
+}
+/* line 31, ../sass/style.scss */
+.post .content {
+  margin-left: 4em;
+}
+/* line 34, ../sass/style.scss */
+.post .content span {
+  margin-right: 1em;
+}
+/* line 37, ../sass/style.scss */
+.post .content span.name {
+  font-weight: bold;
+}
+/* line 40, ../sass/style.scss */
+.post .content span.account {
+  font-weight: lighter;
+  color: gray;
+}
+/* line 44, ../sass/style.scss */
+.post .content span.time {
+  color: gray;
+  float: right;
+  margin-right: 0;
+}
+/* line 53, ../sass/style.scss */
+.post header {
+  margin-bottom: 1em;
+}
+/* line 56, ../sass/style.scss */
+.post section {
+  margin-bottom: 1em;
+}
+/* line 58, ../sass/style.scss */
+.post section p {
+  line-height: 1.4;
+  font-weight: normal;
+}
+/* line 62, ../sass/style.scss */
+.post section img {
+  width: 100%;
+  margin-bottom: 1em;
+}
+/* line 69, ../sass/style.scss */
+.post footer a {
+  text-decoration: none;
+  color: gray;
+  margin-right: 1em;
+}
+/* line 73, ../sass/style.scss */
+.post footer a:last-child {
+  float: right;
+  margin-right: 0;
+}
+/* line 78, ../sass/style.scss */
+.post footer a:hover {
+  color: black;
+}
